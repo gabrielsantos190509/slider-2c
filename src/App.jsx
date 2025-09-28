@@ -3,10 +3,10 @@ import './App.css'
 import Carmy from './assets/macbookair.png'
 import Cjoa from './assets/macbookpro14.webp'
 import Curs from './assets/macbookpro16.png'
-import MacbookAir from './assets/macbookair1.png'
-import MacbookPro13 from './assets/macbookpro13.png'
-import MacbookPro14 from './assets/macbookpro1.4.png'
-import MacbookPro16 from './assets/mackbookpro1.6.png'
+import Slider1 from './assets/1.png'
+import Slider2 from './assets/2.png'
+import Slider3 from './assets/3.png'
+import Slider4 from './assets/4.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import 'swiper/css'
@@ -30,16 +30,16 @@ function App() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={MacbookAir} alt="Slide 1" />
+              <img src={Slider1} alt="Slide 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={MacbookPro13} alt="Slide 2" />
+              <img src={Slider2} alt="Slide 2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={MacbookPro14} alt="Slide 3" />
+              <img src={Slider3} alt="Slide 3" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={MacbookPro16} alt="Slide 4" />
+              <img src={Slider4} alt="Slide 4" />
             </SwiperSlide>      
           </Swiper>
         </header>
